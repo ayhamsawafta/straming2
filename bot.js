@@ -66,7 +66,7 @@ client.user.setAvatar(argresult);
       } else    
 if (message.content.startsWith(adminprefix + 'st')) {
   client.user.setGame(argresult, "https://www.twitch.tv/idk");
-    message.channel.sendMessage(`**:white_check_mark:    ${argresult}**`)
+    message.channel.sendMessage(`**:white_check_mark: تم تغير الحاله الى واتشنق ${argresult}**`)
 }
  
 });
